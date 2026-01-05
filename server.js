@@ -10,9 +10,9 @@ let view;
 let start = new Date();
 view = views.views;
 const fs = require("fs");
-process.on("uncaughtException", () => {
+/*process.on("uncaughtException", () => {
   console.log("error!");
-});
+});*/
 // --- HTTP Server ---
 const server = http.createServer((req, res) => {
   let sn = new Date();
