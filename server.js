@@ -1206,7 +1206,6 @@ function broadcast(message, exclude) {
   }
 }
 wss.on("connection", (ws, req) => {
-  console.log(req.headers["x-original-forwarded-for"].split(",")[0]);
   const fetch = require("node-fetch");
   let threats = [];
   let IPs = [];
