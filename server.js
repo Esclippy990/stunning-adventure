@@ -474,7 +474,7 @@ ${b === 11 || b === 0 ? "snow(true)" : ""}
   let reconn = false;
   let muted = false;
   function recon() {
-  ws = new WebSocket('https://gqqmxv-8080.csb.app/');
+  ws = new WebSocket('https://stunning-adventure-e1ex.onrender.com/');
   ws.onopen = () => {
     //ws.send(JSON.stringify({ type: "ping" })) (This does not do anything to the randomly closing WebSocket problem, where reconnecting is impossible and you have to reload.)
   document.getElementById('name').disabled = false;
