@@ -12,7 +12,7 @@
     "ws": "^8.18.3"
   },
   "engines": {
-    "node": "14.x"
+    "node": "24.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-mvp-node"
